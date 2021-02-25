@@ -342,7 +342,7 @@ def makeCSV(DNSet, filename = "DescendingNeurons.csv", formatType='saveSplit'):
     saveCount = 0
     nameVar = filename
     myFileName = str(nameVar)
-    pathVar = "C:/Users/etens/Desktop/pyCharmOutputs"
+    pathVar = "/home/emily/Desktop/pyCharmOutputs"
     myPath = os.path.normpath(pathVar)
 
     if not os.path.isdir(myPath):

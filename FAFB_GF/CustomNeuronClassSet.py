@@ -20,6 +20,7 @@ import csv
 import requests
 import json
 from requests.auth import AuthBase
+import subsetCreator as SC
 
 # create token from config file
 token = config.token

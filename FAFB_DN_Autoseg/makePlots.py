@@ -17,8 +17,8 @@ import pandas as pd
 chart_studio.tools.set_credentials_file(username='etenshaw', api_key='1ZfRttbxiCZ95A7eBz0f')
 
 
-def openDN_CSV(filename='C:/Users/etens/Desktop/pyCharmOutputs/DescendingNeuron_Complete_Status.csv'):
-    DN_DF = pd.read_csv(filename)
+def openDN_CSV(filename='/home/emily/Desktop/pyCharmOutputs/DescendingNeuron_Complete_Status.csv'):
+    DN_DF = pd.read_csv(filename, engine="python")
     return DN_DF
 
 

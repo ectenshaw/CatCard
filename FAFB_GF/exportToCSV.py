@@ -39,7 +39,7 @@ def makeCSV(mySet, formatType='saveGeneral'):
         myFileName = formatType
         myFileName += str(mySet.groupName)
     saveCount = 0
-    pathVar = "C:/Users/etens/Desktop/pyCharmOutputs/CSV"
+    pathVar = "/home/emily/Desktop/pyCharmOutputs"
     myPath = "{}/{}/".format(pathVar, str(nameVar))
     myPath = os.path.normpath(myPath)
 
