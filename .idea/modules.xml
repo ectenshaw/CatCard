@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CatCard.iml" filepath="$PROJECT_DIR$/.idea/CatCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gf-2/.idea/Giant_Fiber.iml" filepath="$PROJECT_DIR$/../gf-2/.idea/Giant_Fiber.iml" />
+    </modules>
+  </component>
+</project>
